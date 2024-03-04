@@ -29,9 +29,33 @@ To execute the pipeline:
 
 
 ## Overview of Key Findings from EDA
-The EDA conducted in Task 1 revealed several insights:
-- Distribution of genders across different ticket types.
-- Relationship between ease of online booking ratings and ticket types.
+
+1. **Distribution of Gender:**
+   - Large number of females made reservations, indicating a positive reputation for family-friendly environment.
+   - Significant male reservations suggest a diverse customer base.
+
+2. **Usage of Internet:**
+   - More people opted for less internet usage, indicating a preference for family time.
+   - Trend suggests a focus on family-oriented experiences.
+
+3. **Ratings Analysis:**
+   - Balanced customer acquisition from various platforms observed.
+   - Poor ratings for online booking platforms suggest UI improvements are needed.
+
+4. **Cleanliness Ratings:**
+   - Consistent hygiene issues across all ticket types.
+   - Despite higher prices, deluxe tickets faced similar hygiene issues.
+
+5. **Customer Preference and Gender:**
+   - Both genders preferred luxury reservations.
+   - Hygiene issues persisted despite higher prices for deluxe tickets.
+
+6. **User Experience on Booking Platforms:**
+   - Poor user experience across all ticket types observed.
+   - Addressing this issue is crucial to improve customer satisfaction.
+
+These findings provide insights into customer preferences, satisfaction levels, and areas for improvement in services and operations.
+
 
 ## Processing of Features
 
