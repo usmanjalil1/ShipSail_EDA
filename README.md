@@ -23,6 +23,11 @@ To execute the pipeline:
 3. Model Training: Train Multi-Layer Perceptron (MLP) and Decision Tree classifiers.
 4. Model Evaluation: Evaluate the trained models using accuracy score.
 
+## Work Flow Chart
+
+![Image](./images/flow.png)
+
+
 ## Overview of Key Findings from EDA
 The EDA conducted in Task 1 revealed several insights:
 - Distribution of genders across different ticket types.
