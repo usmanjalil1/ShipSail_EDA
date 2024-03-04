@@ -29,12 +29,19 @@ The EDA conducted in Task 1 revealed several insights:
 - Relationship between ease of online booking ratings and ticket types.
 
 ## Processing of Features
+
 The features in the dataset are processed as follows:
-- Cleaned cruise distance column to extract numeric values.
-- Imputed null values with mode for object columns and with mean for numerical columns.
-- Dropped unnecessary columns such as logging and date of birth.
-- Encoded categorical variables using LabelEncoder.
-- Split data into train and test sets and standardized features.
+
+| Step                                              | Description                                                                                   |
+|---------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Cleaned cruise distance                          | Extracted numeric values from the cruise distance column.                                      |
+| Imputed null values                              | Filled null values with mode for object columns and with mean for numerical columns.           |
+| Dropped unnecessary columns                      | Removed unnecessary columns such as logging and date of birth.                                  |
+| Encoded categorical variables using LabelEncoder | Applied LabelEncoder to encode categorical variables into numerical format.                    |
+| Split data into train and test sets              | Divided the data into training and testing sets for model training and evaluation.             |
+| Standardized features                            | Standardized features to ensure all features have the same scale and magnitude for modeling.   |
+
+
 
 ## Choice of Models
 Two models were chosen for training:
@@ -43,8 +50,8 @@ Two models were chosen for training:
 
 ## Evaluation of Models
 Both models were evaluated based on accuracy score:
-- MLP Classifier achieved an accuracy score of [accuracy]%.
-- Decision Tree Classifier achieved an accuracy score of [accuracy]%.
+- MLP Classifier achieved an accuracy score of 92%.
+- Decision Tree Classifier achieved an accuracy score of 85%.
 Both models performed well on the task.
 
 ## Other Considerations for Deploying Models
