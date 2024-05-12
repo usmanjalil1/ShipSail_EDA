@@ -1,9 +1,5 @@
 # ShipSail_EDA
 
-## Full Name and Email Address
-- Full Name: [Full Name]
-- Email Address: [Email Address]
-
 ## Overview
 This repository contains code for Task 2, which involves data preprocessing, model training, and evaluation for cruise data. The folder structure is as follows:
 - `constants.py`: Defines constants used in the pipeline.
